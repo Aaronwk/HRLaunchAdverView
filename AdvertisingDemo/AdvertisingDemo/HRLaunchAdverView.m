@@ -28,6 +28,8 @@ static NSString *const LOCAL_IMG_URL = @"LOCAL_IMG_URL";
     NSInteger _idx;
 }
 
+/** Description:倒计时总时长,默认6秒 */
+@property (assign, nonatomic) NSInteger adTime;
 
 /** Description:广告图片 */
 @property (nonatomic, strong) UIImageView *adImgView;
@@ -65,9 +67,13 @@ static NSString *const LOCAL_IMG_URL = @"LOCAL_IMG_URL";
         }
         _clickAction = clickAction;
         _superView = superView;
-        [self configSelf];
+        
     }
     return self;
+}
+
+- (void)launch {
+    [self configSelf];
 }
 
 #pragma mark - 懒加载

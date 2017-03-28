@@ -19,8 +19,7 @@ typedef void (^ClickActionBlcok)(NSInteger idx);
 @interface HRLaunchAdverView : UIView
 
 
-/** Description:倒计时总时长,默认6秒 */
-@property (assign, nonatomic) NSInteger adTime;
+
 
 /** Description:点击操作 */
 @property (copy, nonatomic) ClickActionBlcok clickAction;
@@ -38,6 +37,11 @@ typedef void (^ClickActionBlcok)(NSInteger idx);
                          imageStr:(NSString *)imageStr
                       clickAction:(ClickActionBlcok)clickAction;
 
+
+/**
+ HR_启动
+ */
+- (void)launch;
 
 /**
  HR_手动清除缓存

@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 
-#import "HRAdverViewController.h"
 
 #import "HRLaunchAdverView.h"
 
@@ -31,14 +30,6 @@
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
 
-    
-    HRAdverViewController *vc=[[HRAdverViewController alloc]init];
-    vc.modalPresentationStyle = UIModalPresentationOverCurrentContext;
-    [self presentViewController:vc animated:NO completion:^{
-        //        vc.view.backgroundColor=[UIColor colorWithRed:0 green:0 blue:0 alpha:0.8];
-        vc.view.backgroundColor = [UIColor clearColor];
-        
-    }];
 }
 
 - (void)didReceiveMemoryWarning {

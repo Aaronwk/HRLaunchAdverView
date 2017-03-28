@@ -19,36 +19,37 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-
+    
     [self.window setFrame:self.window.bounds];
     [self.window makeKeyAndVisible];
     self.window.rootViewController = [[ViewController alloc] init];
     
-        HRLaunchAdverView *adver = [[HRLaunchAdverView alloc] initWithSuperView:self.window
-                                                                       imageStr:@"http://pic.ffpic.com/files/2013/0805/sj0822rrw05_s.jpg"
-                                                                    clickAction:^(NSInteger idx) {
-            switch (idx) {
-                case 1:
-                {
-                    // 点击了广告
-                }
-                    break;
-                case 2:
-                {
-                    // 点击了跳过
-                }
-                    break;
-                case 3:
-                {
-                    // 自动跳过
-                }
-                    break;
-                    
-                default:
-                    break;
-            }
-        }];
-        
+    HRLaunchAdverView *adver = [[HRLaunchAdverView alloc] initWithSuperView:self.window
+                                                                   imageStr:@"http://pic.ffpic.com/files/2013/0805/sj0822rrw05_s.jpg"
+                                                                clickAction:^(NSInteger idx) {
+                                                                    switch (idx) {
+                                                                        case 1:
+                                                                        {
+                                                                            // 点击了广告
+                                                                        }
+                                                                            break;
+                                                                        case 2:
+                                                                        {
+                                                                            // 点击了跳过
+                                                                        }
+                                                                            break;
+                                                                        case 3:
+                                                                        {
+                                                                            // 自动跳过
+                                                                        }
+                                                                            break;
+                                                                            
+                                                                        default:
+                                                                            break;
+                                                                    }
+                                                                }];
+    [adver launch];
+    
     
     return YES;
 }

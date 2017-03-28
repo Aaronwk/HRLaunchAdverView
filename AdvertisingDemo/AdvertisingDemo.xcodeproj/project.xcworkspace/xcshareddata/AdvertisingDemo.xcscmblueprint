@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AE5510292B729C58828CB2DD7ACFB66098C33F79",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AE5510292B729C58828CB2DD7ACFB66098C33F79" : 9223372036854775807,
+    "9EABC32DAC78381BDF0A4B8CAA0349DDEE92DBC7" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "761DFF26-6D76-4347-AEEB-E554B9311F1D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AE5510292B729C58828CB2DD7ACFB66098C33F79" : "HRLaunchAdverView\/",
+    "9EABC32DAC78381BDF0A4B8CAA0349DDEE92DBC7" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AdvertisingDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AdvertisingDemo\/AdvertisingDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/objectiv\/HRLaunchAdverView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9EABC32DAC78381BDF0A4B8CAA0349DDEE92DBC7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:objectiv\/HRLaunchAdverView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AE5510292B729C58828CB2DD7ACFB66098C33F79"
+    }
+  ]
+}
