@@ -1,4 +1,5 @@
 //
+//  https://github.com/objectiv/HRLaunchAdverView.git
 //  AppDelegate.m
 //  AdvertisingDemo
 //

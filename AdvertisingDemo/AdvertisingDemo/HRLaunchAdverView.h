@@ -1,5 +1,7 @@
 //  --- 积累是必不可少的 ---
 //
+//  https://github.com/objectiv/HRLaunchAdverView.git
+//
 //  HRLaunchAdverView.h
 //  AdvertisingDemo
 //

@@ -1,3 +1,5 @@
+
+git https://github.com/objectiv/HRLaunchAdverView.git
 # HRLaunchAdverView
 一个广告的控件
 
