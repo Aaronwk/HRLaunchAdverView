@@ -107,7 +107,7 @@ static NSString *const LOCAL_IMG_URL = @"LOCAL_IMG_URL";
 }
 // 配置
 - (void)configSelf {
-    [self setBackgroundColor:[UIColor redColor]];
+    [self setBackgroundColor:[UIColor clearColor]];
     [self setFrame:hr_screen_bounds()];
     [self setUserInteractionEnabled:YES];
     [self configData];
